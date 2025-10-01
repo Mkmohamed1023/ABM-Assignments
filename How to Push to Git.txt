@@ -7,3 +7,16 @@ git add .
 git commit -m "Update all files"
 git push
 
+
+
+How to work on Branches
+
+cd "C:/Users/Lenovo/Desktop/Walton Work/ABN/Codes/ABM- Assignments"
+
+git checkout dev         # switch to dev branch
+git pull                 # sync latest changes
+# (do your coding in Spyder, save files)
+git add .
+git commit -m "Update code in dev branch"
+git push
+
