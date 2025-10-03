@@ -1,11 +1,16 @@
-.venv/
-env/
+# Python
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
+.venv/
+.env/
+
+# Data & figures (large / regenerable)
 data/
 figures/
-.DS_Store
-nul
+
+# Jupyter
+.ipynb_checkpoints/
+
 # Windows reserved filenames
 nul
 con
