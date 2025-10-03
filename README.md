@@ -1,13 +1,9 @@
-# ABM-Assignments
-This is a repository for the Agent Based Modelling Assignments
+# ABM Assignment 2 — Part I
 
-git clone "https://github.com/<YOUR-USER>/ABM- Assignments.git"
-cd "ABM- Assignments"
-conda env create -f ENV.yml
-conda activate abm-ant
- or
+Procedural ant foraging ABM with pheromone diffusion/evaporation.
 
- echo 'source "/c/Users/Lenovo/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
-source ~/.bashrc
-conda activate abm-ant
+## Run
+```bash
+python abm_ch1_experiments.py --seed 1234 --N 50 --diffusion 0.15 --evaporation 0.02 --map_size 100 --layout corners
+
 
